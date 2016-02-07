@@ -1,0 +1,21 @@
+{
+    "name": "defiant/championgg-php",
+    "description": "PHP wrapper for Champion.gg API",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^6.1",
+        "php": ">=5.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sinan Taga",
+            "email": "sinantaga@gmail.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+        "Championgg\\": "src/"
+      }
+    }
+}
